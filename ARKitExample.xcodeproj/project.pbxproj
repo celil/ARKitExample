@@ -99,12 +99,9 @@
 		16D5425B1FF3C08400DB18C0 /* ARKitExample */ = {
 			isa = PBXGroup;
 			children = (
-				16D5425C1FF3C08400DB18C0 /* AppDelegate.swift */,
-				16D5425E1FF3C08400DB18C0 /* art.scnassets */,
 				16D542601FF3C08400DB18C0 /* ViewController.swift */,
-				16D542621FF3C08400DB18C0 /* Main.storyboard */,
-				16D542651FF3C08400DB18C0 /* Assets.xcassets */,
-				16D542671FF3C08400DB18C0 /* LaunchScreen.storyboard */,
+				16D5428C1FF3CE2600DB18C0 /* Resources */,
+				16D5425C1FF3C08400DB18C0 /* AppDelegate.swift */,
 				16D5426A1FF3C08400DB18C0 /* Info.plist */,
 			);
 			path = ARKitExample;
@@ -126,6 +123,17 @@
 				16D542801FF3C08400DB18C0 /* Info.plist */,
 			);
 			path = ARKitExampleUITests;
+			sourceTree = "<group>";
+		};
+		16D5428C1FF3CE2600DB18C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16D542671FF3C08400DB18C0 /* LaunchScreen.storyboard */,
+				16D542621FF3C08400DB18C0 /* Main.storyboard */,
+				16D542651FF3C08400DB18C0 /* Assets.xcassets */,
+				16D5425E1FF3C08400DB18C0 /* art.scnassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
