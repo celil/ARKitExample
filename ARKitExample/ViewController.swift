@@ -17,11 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Set the view's delegate
-        sceneView.delegate = self
-        
-        // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        sceneViewSetup()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,13 +36,11 @@ class ViewController: UIViewController {
         // Pause the view's session
         sceneView.session.pause()
     }
-}
-
-//MARK: ARSCNView Delegation
-extension ViewController: ARSCNViewDelegate {
-    func session(_ session: ARSession, didFailWithError error: Error) {
-    // Present an error message to the user
     
+    
+    func session(_ session: ARSession, didFailWithError error: Error) {
+        // Present an error message to the user
+        
     }
     
     func sessionWasInterrupted(_ session: ARSession) {
@@ -58,7 +52,19 @@ extension ViewController: ARSCNViewDelegate {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
         
     }
-    
+}
+
+//MARK: Setups & Configurations
+extension ViewController {
+    func sceneViewSetup() {
+        sceneView.delegate = self
+        
+        sceneView.showsStatistics = true
+    }
+}
+
+//MARK: ARSCNView Delegation
+extension ViewController: ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
     }
