@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16D541A91FF3BD4000DB18C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D541A81FF3BD4000DB18C0 /* AppDelegate.swift */; };
-		16D541AB1FF3BD4000DB18C0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D541AA1FF3BD4000DB18C0 /* art.scnassets */; };
-		16D541AD1FF3BD4000DB18C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D541AC1FF3BD4000DB18C0 /* ViewController.swift */; };
-		16D541B01FF3BD4100DB18C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D541AE1FF3BD4100DB18C0 /* Main.storyboard */; };
-		16D541B21FF3BD4100DB18C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D541B11FF3BD4100DB18C0 /* Assets.xcassets */; };
-		16D541B51FF3BD4100DB18C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D541B31FF3BD4100DB18C0 /* LaunchScreen.storyboard */; };
-		16D541C01FF3BD4100DB18C0 /* ARKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D541BF1FF3BD4100DB18C0 /* ARKitExampleTests.swift */; };
-		16D541CB1FF3BD4100DB18C0 /* ARKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D541CA1FF3BD4100DB18C0 /* ARKitExampleUITests.swift */; };
+		16D5425D1FF3C08400DB18C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5425C1FF3C08400DB18C0 /* AppDelegate.swift */; };
+		16D5425F1FF3C08400DB18C0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D5425E1FF3C08400DB18C0 /* art.scnassets */; };
+		16D542611FF3C08400DB18C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D542601FF3C08400DB18C0 /* ViewController.swift */; };
+		16D542641FF3C08400DB18C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D542621FF3C08400DB18C0 /* Main.storyboard */; };
+		16D542661FF3C08400DB18C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D542651FF3C08400DB18C0 /* Assets.xcassets */; };
+		16D542691FF3C08400DB18C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D542671FF3C08400DB18C0 /* LaunchScreen.storyboard */; };
+		16D542741FF3C08400DB18C0 /* ARKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D542731FF3C08400DB18C0 /* ARKitExampleTests.swift */; };
+		16D5427F1FF3C08400DB18C0 /* ARKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5427E1FF3C08400DB18C0 /* ARKitExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16D541BC1FF3BD4100DB18C0 /* PBXContainerItemProxy */ = {
+		16D542701FF3C08400DB18C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16D5419D1FF3BD4000DB18C0 /* Project object */;
+			containerPortal = 16D542511FF3C08400DB18C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16D541A41FF3BD4000DB18C0;
+			remoteGlobalIDString = 16D542581FF3C08400DB18C0;
 			remoteInfo = ARKitExample;
 		};
-		16D541C71FF3BD4100DB18C0 /* PBXContainerItemProxy */ = {
+		16D5427B1FF3C08400DB18C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16D5419D1FF3BD4000DB18C0 /* Project object */;
+			containerPortal = 16D542511FF3C08400DB18C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16D541A41FF3BD4000DB18C0;
+			remoteGlobalIDString = 16D542581FF3C08400DB18C0;
 			remoteInfo = ARKitExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16D541A51FF3BD4000DB18C0 /* ARKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16D541A81FF3BD4000DB18C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16D541AA1FF3BD4000DB18C0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		16D541AC1FF3BD4000DB18C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		16D541AF1FF3BD4100DB18C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		16D541B11FF3BD4100DB18C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		16D541B41FF3BD4100DB18C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		16D541B61FF3BD4100DB18C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16D541BB1FF3BD4100DB18C0 /* ARKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16D541BF1FF3BD4100DB18C0 /* ARKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitExampleTests.swift; sourceTree = "<group>"; };
-		16D541C11FF3BD4100DB18C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16D541C61FF3BD4100DB18C0 /* ARKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16D541CA1FF3BD4100DB18C0 /* ARKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitExampleUITests.swift; sourceTree = "<group>"; };
-		16D541CC1FF3BD4100DB18C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D542591FF3C08400DB18C0 /* ARKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D5425C1FF3C08400DB18C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16D5425E1FF3C08400DB18C0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		16D542601FF3C08400DB18C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16D542631FF3C08400DB18C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16D542651FF3C08400DB18C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D542681FF3C08400DB18C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16D5426A1FF3C08400DB18C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D5426F1FF3C08400DB18C0 /* ARKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D542731FF3C08400DB18C0 /* ARKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitExampleTests.swift; sourceTree = "<group>"; };
+		16D542751FF3C08400DB18C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D5427A1FF3C08400DB18C0 /* ARKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16D5427E1FF3C08400DB18C0 /* ARKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitExampleUITests.swift; sourceTree = "<group>"; };
+		16D542801FF3C08400DB18C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16D541A21FF3BD4000DB18C0 /* Frameworks */ = {
+		16D542561FF3C08400DB18C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16D541B81FF3BD4100DB18C0 /* Frameworks */ = {
+		16D5426C1FF3C08400DB18C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16D541C31FF3BD4100DB18C0 /* Frameworks */ = {
+		16D542771FF3C08400DB18C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16D5419C1FF3BD4000DB18C0 = {
+		16D542501FF3C08400DB18C0 = {
 			isa = PBXGroup;
 			children = (
-				16D541A71FF3BD4000DB18C0 /* ARKitExample */,
-				16D541BE1FF3BD4100DB18C0 /* ARKitExampleTests */,
-				16D541C91FF3BD4100DB18C0 /* ARKitExampleUITests */,
-				16D541A61FF3BD4000DB18C0 /* Products */,
+				16D5425B1FF3C08400DB18C0 /* ARKitExample */,
+				16D542721FF3C08400DB18C0 /* ARKitExampleTests */,
+				16D5427D1FF3C08400DB18C0 /* ARKitExampleUITests */,
+				16D5425A1FF3C08400DB18C0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		16D541A61FF3BD4000DB18C0 /* Products */ = {
+		16D5425A1FF3C08400DB18C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16D541A51FF3BD4000DB18C0 /* ARKitExample.app */,
-				16D541BB1FF3BD4100DB18C0 /* ARKitExampleTests.xctest */,
-				16D541C61FF3BD4100DB18C0 /* ARKitExampleUITests.xctest */,
+				16D542591FF3C08400DB18C0 /* ARKitExample.app */,
+				16D5426F1FF3C08400DB18C0 /* ARKitExampleTests.xctest */,
+				16D5427A1FF3C08400DB18C0 /* ARKitExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16D541A71FF3BD4000DB18C0 /* ARKitExample */ = {
+		16D5425B1FF3C08400DB18C0 /* ARKitExample */ = {
 			isa = PBXGroup;
 			children = (
-				16D541A81FF3BD4000DB18C0 /* AppDelegate.swift */,
-				16D541AA1FF3BD4000DB18C0 /* art.scnassets */,
-				16D541AC1FF3BD4000DB18C0 /* ViewController.swift */,
-				16D541AE1FF3BD4100DB18C0 /* Main.storyboard */,
-				16D541B11FF3BD4100DB18C0 /* Assets.xcassets */,
-				16D541B31FF3BD4100DB18C0 /* LaunchScreen.storyboard */,
-				16D541B61FF3BD4100DB18C0 /* Info.plist */,
+				16D5425C1FF3C08400DB18C0 /* AppDelegate.swift */,
+				16D5425E1FF3C08400DB18C0 /* art.scnassets */,
+				16D542601FF3C08400DB18C0 /* ViewController.swift */,
+				16D542621FF3C08400DB18C0 /* Main.storyboard */,
+				16D542651FF3C08400DB18C0 /* Assets.xcassets */,
+				16D542671FF3C08400DB18C0 /* LaunchScreen.storyboard */,
+				16D5426A1FF3C08400DB18C0 /* Info.plist */,
 			);
 			path = ARKitExample;
 			sourceTree = "<group>";
 		};
-		16D541BE1FF3BD4100DB18C0 /* ARKitExampleTests */ = {
+		16D542721FF3C08400DB18C0 /* ARKitExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				16D541BF1FF3BD4100DB18C0 /* ARKitExampleTests.swift */,
-				16D541C11FF3BD4100DB18C0 /* Info.plist */,
+				16D542731FF3C08400DB18C0 /* ARKitExampleTests.swift */,
+				16D542751FF3C08400DB18C0 /* Info.plist */,
 			);
 			path = ARKitExampleTests;
 			sourceTree = "<group>";
 		};
-		16D541C91FF3BD4100DB18C0 /* ARKitExampleUITests */ = {
+		16D5427D1FF3C08400DB18C0 /* ARKitExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				16D541CA1FF3BD4100DB18C0 /* ARKitExampleUITests.swift */,
-				16D541CC1FF3BD4100DB18C0 /* Info.plist */,
+				16D5427E1FF3C08400DB18C0 /* ARKitExampleUITests.swift */,
+				16D542801FF3C08400DB18C0 /* Info.plist */,
 			);
 			path = ARKitExampleUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16D541A41FF3BD4000DB18C0 /* ARKitExample */ = {
+		16D542581FF3C08400DB18C0 /* ARKitExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16D541CF1FF3BD4100DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExample" */;
+			buildConfigurationList = 16D542831FF3C08400DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExample" */;
 			buildPhases = (
-				16D541A11FF3BD4000DB18C0 /* Sources */,
-				16D541A21FF3BD4000DB18C0 /* Frameworks */,
-				16D541A31FF3BD4000DB18C0 /* Resources */,
+				16D542551FF3C08400DB18C0 /* Sources */,
+				16D542561FF3C08400DB18C0 /* Frameworks */,
+				16D542571FF3C08400DB18C0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,72 +145,72 @@
 			);
 			name = ARKitExample;
 			productName = ARKitExample;
-			productReference = 16D541A51FF3BD4000DB18C0 /* ARKitExample.app */;
+			productReference = 16D542591FF3C08400DB18C0 /* ARKitExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		16D541BA1FF3BD4100DB18C0 /* ARKitExampleTests */ = {
+		16D5426E1FF3C08400DB18C0 /* ARKitExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16D541D21FF3BD4100DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleTests" */;
+			buildConfigurationList = 16D542861FF3C08400DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleTests" */;
 			buildPhases = (
-				16D541B71FF3BD4100DB18C0 /* Sources */,
-				16D541B81FF3BD4100DB18C0 /* Frameworks */,
-				16D541B91FF3BD4100DB18C0 /* Resources */,
+				16D5426B1FF3C08400DB18C0 /* Sources */,
+				16D5426C1FF3C08400DB18C0 /* Frameworks */,
+				16D5426D1FF3C08400DB18C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16D541BD1FF3BD4100DB18C0 /* PBXTargetDependency */,
+				16D542711FF3C08400DB18C0 /* PBXTargetDependency */,
 			);
 			name = ARKitExampleTests;
 			productName = ARKitExampleTests;
-			productReference = 16D541BB1FF3BD4100DB18C0 /* ARKitExampleTests.xctest */;
+			productReference = 16D5426F1FF3C08400DB18C0 /* ARKitExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		16D541C51FF3BD4100DB18C0 /* ARKitExampleUITests */ = {
+		16D542791FF3C08400DB18C0 /* ARKitExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16D541D51FF3BD4100DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleUITests" */;
+			buildConfigurationList = 16D542891FF3C08400DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleUITests" */;
 			buildPhases = (
-				16D541C21FF3BD4100DB18C0 /* Sources */,
-				16D541C31FF3BD4100DB18C0 /* Frameworks */,
-				16D541C41FF3BD4100DB18C0 /* Resources */,
+				16D542761FF3C08400DB18C0 /* Sources */,
+				16D542771FF3C08400DB18C0 /* Frameworks */,
+				16D542781FF3C08400DB18C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16D541C81FF3BD4100DB18C0 /* PBXTargetDependency */,
+				16D5427C1FF3C08400DB18C0 /* PBXTargetDependency */,
 			);
 			name = ARKitExampleUITests;
 			productName = ARKitExampleUITests;
-			productReference = 16D541C61FF3BD4100DB18C0 /* ARKitExampleUITests.xctest */;
+			productReference = 16D5427A1FF3C08400DB18C0 /* ARKitExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16D5419D1FF3BD4000DB18C0 /* Project object */ = {
+		16D542511FF3C08400DB18C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Celil Bozkurt";
 				TargetAttributes = {
-					16D541A41FF3BD4000DB18C0 = {
+					16D542581FF3C08400DB18C0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					16D541BA1FF3BD4100DB18C0 = {
+					16D5426E1FF3C08400DB18C0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 16D541A41FF3BD4000DB18C0;
+						TestTargetID = 16D542581FF3C08400DB18C0;
 					};
-					16D541C51FF3BD4100DB18C0 = {
+					16D542791FF3C08400DB18C0 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 16D541A41FF3BD4000DB18C0;
+						TestTargetID = 16D542581FF3C08400DB18C0;
 					};
 				};
 			};
-			buildConfigurationList = 16D541A01FF3BD4000DB18C0 /* Build configuration list for PBXProject "ARKitExample" */;
+			buildConfigurationList = 16D542541FF3C08400DB18C0 /* Build configuration list for PBXProject "ARKitExample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,38 +218,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 16D5419C1FF3BD4000DB18C0;
-			productRefGroup = 16D541A61FF3BD4000DB18C0 /* Products */;
+			mainGroup = 16D542501FF3C08400DB18C0;
+			productRefGroup = 16D5425A1FF3C08400DB18C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16D541A41FF3BD4000DB18C0 /* ARKitExample */,
-				16D541BA1FF3BD4100DB18C0 /* ARKitExampleTests */,
-				16D541C51FF3BD4100DB18C0 /* ARKitExampleUITests */,
+				16D542581FF3C08400DB18C0 /* ARKitExample */,
+				16D5426E1FF3C08400DB18C0 /* ARKitExampleTests */,
+				16D542791FF3C08400DB18C0 /* ARKitExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16D541A31FF3BD4000DB18C0 /* Resources */ = {
+		16D542571FF3C08400DB18C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D541AB1FF3BD4000DB18C0 /* art.scnassets in Resources */,
-				16D541B51FF3BD4100DB18C0 /* LaunchScreen.storyboard in Resources */,
-				16D541B21FF3BD4100DB18C0 /* Assets.xcassets in Resources */,
-				16D541B01FF3BD4100DB18C0 /* Main.storyboard in Resources */,
+				16D5425F1FF3C08400DB18C0 /* art.scnassets in Resources */,
+				16D542691FF3C08400DB18C0 /* LaunchScreen.storyboard in Resources */,
+				16D542661FF3C08400DB18C0 /* Assets.xcassets in Resources */,
+				16D542641FF3C08400DB18C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16D541B91FF3BD4100DB18C0 /* Resources */ = {
+		16D5426D1FF3C08400DB18C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16D541C41FF3BD4100DB18C0 /* Resources */ = {
+		16D542781FF3C08400DB18C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,59 +259,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16D541A11FF3BD4000DB18C0 /* Sources */ = {
+		16D542551FF3C08400DB18C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D541AD1FF3BD4000DB18C0 /* ViewController.swift in Sources */,
-				16D541A91FF3BD4000DB18C0 /* AppDelegate.swift in Sources */,
+				16D542611FF3C08400DB18C0 /* ViewController.swift in Sources */,
+				16D5425D1FF3C08400DB18C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16D541B71FF3BD4100DB18C0 /* Sources */ = {
+		16D5426B1FF3C08400DB18C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D541C01FF3BD4100DB18C0 /* ARKitExampleTests.swift in Sources */,
+				16D542741FF3C08400DB18C0 /* ARKitExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16D541C21FF3BD4100DB18C0 /* Sources */ = {
+		16D542761FF3C08400DB18C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D541CB1FF3BD4100DB18C0 /* ARKitExampleUITests.swift in Sources */,
+				16D5427F1FF3C08400DB18C0 /* ARKitExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16D541BD1FF3BD4100DB18C0 /* PBXTargetDependency */ = {
+		16D542711FF3C08400DB18C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16D541A41FF3BD4000DB18C0 /* ARKitExample */;
-			targetProxy = 16D541BC1FF3BD4100DB18C0 /* PBXContainerItemProxy */;
+			target = 16D542581FF3C08400DB18C0 /* ARKitExample */;
+			targetProxy = 16D542701FF3C08400DB18C0 /* PBXContainerItemProxy */;
 		};
-		16D541C81FF3BD4100DB18C0 /* PBXTargetDependency */ = {
+		16D5427C1FF3C08400DB18C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16D541A41FF3BD4000DB18C0 /* ARKitExample */;
-			targetProxy = 16D541C71FF3BD4100DB18C0 /* PBXContainerItemProxy */;
+			target = 16D542581FF3C08400DB18C0 /* ARKitExample */;
+			targetProxy = 16D5427B1FF3C08400DB18C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		16D541AE1FF3BD4100DB18C0 /* Main.storyboard */ = {
+		16D542621FF3C08400DB18C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				16D541AF1FF3BD4100DB18C0 /* Base */,
+				16D542631FF3C08400DB18C0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		16D541B31FF3BD4100DB18C0 /* LaunchScreen.storyboard */ = {
+		16D542671FF3C08400DB18C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				16D541B41FF3BD4100DB18C0 /* Base */,
+				16D542681FF3C08400DB18C0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		16D541CD1FF3BD4100DB18C0 /* Debug */ = {
+		16D542811FF3C08400DB18C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		16D541CE1FF3BD4100DB18C0 /* Release */ = {
+		16D542821FF3C08400DB18C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,7 +426,7 @@
 			};
 			name = Release;
 		};
-		16D541D01FF3BD4100DB18C0 /* Debug */ = {
+		16D542841FF3C08400DB18C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +441,7 @@
 			};
 			name = Debug;
 		};
-		16D541D11FF3BD4100DB18C0 /* Release */ = {
+		16D542851FF3C08400DB18C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -456,7 +456,7 @@
 			};
 			name = Release;
 		};
-		16D541D31FF3BD4100DB18C0 /* Debug */ = {
+		16D542871FF3C08400DB18C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -473,7 +473,7 @@
 			};
 			name = Debug;
 		};
-		16D541D41FF3BD4100DB18C0 /* Release */ = {
+		16D542881FF3C08400DB18C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,7 +490,7 @@
 			};
 			name = Release;
 		};
-		16D541D61FF3BD4100DB18C0 /* Debug */ = {
+		16D5428A1FF3C08400DB18C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,7 +506,7 @@
 			};
 			name = Debug;
 		};
-		16D541D71FF3BD4100DB18C0 /* Release */ = {
+		16D5428B1FF3C08400DB18C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,43 +525,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16D541A01FF3BD4000DB18C0 /* Build configuration list for PBXProject "ARKitExample" */ = {
+		16D542541FF3C08400DB18C0 /* Build configuration list for PBXProject "ARKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16D541CD1FF3BD4100DB18C0 /* Debug */,
-				16D541CE1FF3BD4100DB18C0 /* Release */,
+				16D542811FF3C08400DB18C0 /* Debug */,
+				16D542821FF3C08400DB18C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16D541CF1FF3BD4100DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExample" */ = {
+		16D542831FF3C08400DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16D541D01FF3BD4100DB18C0 /* Debug */,
-				16D541D11FF3BD4100DB18C0 /* Release */,
+				16D542841FF3C08400DB18C0 /* Debug */,
+				16D542851FF3C08400DB18C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16D541D21FF3BD4100DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleTests" */ = {
+		16D542861FF3C08400DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16D541D31FF3BD4100DB18C0 /* Debug */,
-				16D541D41FF3BD4100DB18C0 /* Release */,
+				16D542871FF3C08400DB18C0 /* Debug */,
+				16D542881FF3C08400DB18C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16D541D51FF3BD4100DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleUITests" */ = {
+		16D542891FF3C08400DB18C0 /* Build configuration list for PBXNativeTarget "ARKitExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16D541D61FF3BD4100DB18C0 /* Debug */,
-				16D541D71FF3BD4100DB18C0 /* Release */,
+				16D5428A1FF3C08400DB18C0 /* Debug */,
+				16D5428B1FF3C08400DB18C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 16D5419D1FF3BD4000DB18C0 /* Project object */;
+	rootObject = 16D542511FF3C08400DB18C0 /* Project object */;
 }
