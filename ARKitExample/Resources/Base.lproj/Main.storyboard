@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A278a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="07F-MZ-Fkw">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tXr-a1-R10">
+        <scene sceneID="nLI-2h-VCX">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                <viewController id="07F-MZ-Fkw" customClass="ViewController" customModule="ARKitExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OVb-OS-DWe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arscnView>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eA6-ZZ-HUG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="677"/>
+                            </arscnView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconNotAvailable" translatesAutoresizingMaskIntoConstraints="NO" id="vo0-Cx-VHF">
+                                <rect key="frame" x="87" y="238.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Swh-KP-FbC"/>
+                                    <constraint firstAttribute="height" constant="200" id="oaA-VF-8ur"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vo0-Cx-VHF" firstAttribute="centerX" secondItem="eA6-ZZ-HUG" secondAttribute="centerX" id="QDh-FM-q7s"/>
+                            <constraint firstItem="ivG-xw-obL" firstAttribute="top" secondItem="eA6-ZZ-HUG" secondAttribute="top" constant="20" id="awj-0n-37U"/>
+                            <constraint firstItem="eA6-ZZ-HUG" firstAttribute="bottom" secondItem="ivG-xw-obL" secondAttribute="bottom" constant="10" id="eNf-Sm-VTS"/>
+                            <constraint firstItem="ivG-xw-obL" firstAttribute="trailing" secondItem="eA6-ZZ-HUG" secondAttribute="trailing" id="k7I-Cf-byA"/>
+                            <constraint firstItem="eA6-ZZ-HUG" firstAttribute="centerX" secondItem="ivG-xw-obL" secondAttribute="centerX" id="rZR-32-gwL"/>
+                            <constraint firstItem="eA6-ZZ-HUG" firstAttribute="leading" secondItem="ivG-xw-obL" secondAttribute="leading" id="wag-SH-NOc"/>
+                            <constraint firstItem="vo0-Cx-VHF" firstAttribute="centerY" secondItem="eA6-ZZ-HUG" secondAttribute="centerY" id="yqh-XD-wWn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ivG-xw-obL"/>
+                    </view>
                     <connections>
-                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="notAvailableIcon" destination="vo0-Cx-VHF" id="g3X-29-Yod"/>
+                        <outlet property="sceneView" destination="eA6-ZZ-HUG" id="gaw-tH-eWX"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bi3-p8-7Jz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-580" y="140"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iconNotAvailable" width="85" height="85"/>
+    </resources>
 </document>
